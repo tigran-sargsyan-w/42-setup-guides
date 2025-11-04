@@ -29,6 +29,5 @@ git config --global core.editor "vim"
 # sudo apt install gnupg  # if you have sudo
 gpg --full-generate-key
 gpg --list-secret-keys --keyid-format=long
-# then: git config --global user.signingkey <KEYID>
 
 ```
