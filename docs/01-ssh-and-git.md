@@ -30,5 +30,5 @@ git config --global core.editor "vim"
 gpg --full-generate-key
 gpg --list-secret-keys --keyid-format=long
 # then: git config --global user.signingkey <KEYID>
-# and:  git config --global commit.gpgsign true
+
 ```
