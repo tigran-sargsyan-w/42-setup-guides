@@ -1,10 +1,10 @@
-# 03 — Keyboard Layouts & Shortcut (GNOME, no sudo) 🧩 
+# 03 — Keyboard Layouts & Shortcut (GNOME, no sudo) 🧩⌨️
 
 This README explains how to **add a keyboard layout** and **assign a shortcut** to switch layouts on Linux (focus: GNOME). Everything is done **without sudo**, and settings **persist** across logins.
 
 ---
 
-## 1) Add a layout via GUI (easiest)
+## 1) Add a layout via GUI (easiest) 🖱️
 
 **Settings → Keyboard → Input Sources → “+”**  
 Add your language (e.g., **Russian** / **French** / **Armenian**).  
@@ -18,11 +18,11 @@ gsettings get org.gnome.desktop.input-sources sources
 
 ---
 
-## 2) Set a shortcut to switch layouts
+## 2) Set a shortcut to switch layouts ⌨️
 
 GNOME sometimes won’t let you assign a hotkey in the GUI. Do it reliably with `gsettings`:
 
-### Option A — Alt+Shift (recommended)
+### Option A — Alt+Shift (recommended) 🔁
 ```
 gsettings set org.gnome.desktop.input-sources xkb-options "['grp:alt_shift_toggle']"
 ```
@@ -39,7 +39,7 @@ gsettings set org.gnome.desktop.input-sources xkb-options "['grp:caps_toggle']"
 gsettings reset org.gnome.desktop.input-sources xkb-options
 ```
 
-### Verify
+### Verify ✅
 ```
 gsettings get org.gnome.desktop.input-sources xkb-options
 # Expected: ['grp:alt_shift_toggle']
@@ -49,7 +49,7 @@ gsettings get org.gnome.desktop.input-sources xkb-options
 
 ---
 
-## 3) Apply immediately (without relogin, X11)
+## 3) Apply immediately (without relogin, X11) ⚡
 
 If you want it to work **right now** (on X11), run:
 ```
@@ -59,7 +59,7 @@ setxkbmap -layout "us,ru" -option "grp:alt_shift_toggle"
 
 ---
 
-## 4) FAQ
+## 4) FAQ ❓
 
 - **Will it persist after reboot/login?**  
   Yes. `gsettings` writes to GNOME dconf (per-user).
@@ -72,16 +72,16 @@ setxkbmap -layout "us,ru" -option "grp:alt_shift_toggle"
   ```
 
 - **How to inspect active layouts and options?**
-  ```
-  setxkbmap -query
-  # Example:
-  # layout:   us,ru
-  # options:  grp:alt_shift_toggle
-  ```
+```
+setxkbmap -query
+# Example:
+# layout:   us,ru
+# options:  grp:alt_shift_toggle
+```
 
 ---
 
-## 5) Xfce / other environments
+## 5) Xfce / other environments 🖥️
 
 ### Xfce (no sudo, simple)
 Prefer the GUI (**Settings → Keyboard → Layout**). To force-apply on login (X11), add to `~/.xprofile`:
@@ -99,7 +99,7 @@ For Wayland compositors like **Sway/Hyprland**, configure switching in their nat
 
 ---
 
-## 6) Quick checklist
+## 6) Quick checklist ✅
 
 - [ ] Added the layout in **Settings → Keyboard → Input Sources**  
 - [ ] Set the hotkey via `gsettings` (e.g., Alt+Shift)  
@@ -109,7 +109,7 @@ For Wayland compositors like **Sway/Hyprland**, configure switching in their nat
 
 ---
 
-## 7) TL;DR
+## 7) TL;DR 📌
 
 ```
 # Add the layout in GUI first (Settings → Keyboard → Input Sources)
