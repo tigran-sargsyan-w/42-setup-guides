@@ -1,4 +1,4 @@
-# 02 — Bluetooth 🔵
+# 04 — Bluetooth 🔵
 
 A short, practical guide for using the helper Bluetooth script included in this repository's `scripts/` directory.
 

@@ -1,4 +1,4 @@
-# 01 — SSH & Git (GitHub + 42 intra)
+# 03 — SSH & Git (GitHub + 42 intra)
 
 ## TL;DR
 ```bash

@@ -1,4 +1,4 @@
-# 03 — Keyboard Layouts & Shortcut (GNOME, no sudo) 🧩⌨️
+# 01 — Keyboard Layouts & Shortcut (GNOME, no sudo) 🧩⌨️
 
 This README explains how to **add a keyboard layout** and **assign a shortcut** to switch layouts on Linux (focus: GNOME). Everything is done **without sudo**, and settings **persist** across logins.
 

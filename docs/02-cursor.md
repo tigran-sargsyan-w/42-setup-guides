@@ -1,4 +1,4 @@
-# 03 — Change cursor theme (no sudo required) 🖱️✨
+# 02 — Change cursor theme (no sudo required) 🖱️✨
 
 A short, practical guide to install and enable the Bibata cursor theme without requiring sudo. This installs the theme into your home directory so you can test or use it per-user.
 
