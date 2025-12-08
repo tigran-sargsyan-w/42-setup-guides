@@ -12,6 +12,7 @@ Designed for fast onboarding, reproducibility, and clarity. Made by students, fo
 - [`docs/02-cursor.md`](docs/02-cursor.md) — Change cursor theme (per-user, no sudo)
 - [`docs/03-ssh-and-git.md`](docs/03-ssh-and-git.md) — SSH keys, Git config, GitHub/42 Intra
 - [`docs/04-bluetooth.md`](docs/04-bluetooth.md) — Bluetooth helper: scan, pair and audio restart
+- [`docs/05-vs-code-portable.md`](docs/05-vs-code-portable.md) — VS Code portable setup (no sudo)
 
 If you add new guides, please update this list so newcomers can find them quickly.
 
