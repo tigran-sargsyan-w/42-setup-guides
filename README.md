@@ -13,6 +13,7 @@ Designed for fast onboarding, reproducibility, and clarity. Made by students, fo
 - [`docs/03-ssh-and-git.md`](docs/03-ssh-and-git.md) — SSH keys, Git config, GitHub/42 Intra
 - [`docs/04-bluetooth.md`](docs/04-bluetooth.md) — Bluetooth helper: scan, pair and audio restart
 - [`docs/05-vscode-portable.md`](docs/05-vscode-portable.md) — VS Code portable setup (no sudo)
+- [`docs/06-nautilus-vscode-context-menu.md`](docs/06-nautilus-vscode-context-menu.md) — Add “Open in VS Code” to Nautilus context menu (no sudo)
 
 If you add new guides, please update this list so newcomers can find them quickly.
 
